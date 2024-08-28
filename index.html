@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="text" name="Nome do usuário">
-    <input type="email" name="Email">
-    <input type="number" name="Número">
+    <p>Digite seu nome</p>
+    <input type="text" name="Nome do usuário" required>
+    <p>Digite seu email</p>
+    <input type="email" name="Email" required>
+    <p>Você trabalha?</p>
+    <input type="radio" name="" value="sim" required> Sim
+    <input type="radio" name="" value="não" required> Não
 
-    <input type="radio" name="" value="sim"> Sim
-    <input type="radio" name="" value="não"> Não
 
-    <input type="checkbox" name=""> Li, e concordo
-
+    <p>Selecione seu estado</p>
     <select name="estados" id="">
-     <option value="Acre">Acre</option>
-     <option value="Alagoas">Alagoas</option>
-     <option value="Amapá">Amapá</option>
+        <option value="Acre">Acre</option>
+        <option value="Alagoas">Alagoas</option>
+        <option value="Amapá">Amapá</option>
     </select>
-
-    <textarea name="comentário"></textarea>
-
+    <p>Selecione sua idade</p>
+    <select name="Idade" id="">
+        <option value="0">entre 0 a 10</option>
+        <option value="10">entre 10 a 20</option>
+        <option value="20">entre 20 e 30</option>
+    </select>
+<p>Deixe aqui a sua reclamação</p>
+<textarea name="Comentários" id=""></textarea>
+    <input type="checkbox" name="" required> Li, e concordo
     <button type="button">Enviar</button>
     <button type="button">Cancelar</button>
-    <input type="email" name="email" placeholder="Exemplo de utilização">
-    <input type="number" name="name" required>
 </body>
+
 </html>
