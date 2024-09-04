@@ -8,14 +8,14 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/f/mblrwapl" method="post">
+    <form action="https://formspree.io/f/mblrwapl" method="POST">
     <p>Digite seu nome</p>
-    <input type="text" name="Nome do usuário" required>
+    <input type="text" name="Nome do usuário" placeholder="Nome completo" required>
     <p>Digite seu email</p>
-    <input type="email" name="Email" required>
+    <input type="email" name="Email" placeholder="email" required>
     <p>Você trabalha?</p>
-    <input type="radio" name="" value="sim" required> Sim
-    <input type="radio" name="" value="não" required> Não
+    <input type="radio" value="sim" required> Sim
+    <input type="radio" value="não" required> Não
 
 
     <p>Selecione seu estado</p>
@@ -33,8 +33,8 @@
 <p>Deixe aqui a sua reclamação</p>
 <textarea name="Comentários" id=""></textarea><br>
     <input type="checkbox" name="" required> Li, e concordo <br>
-    <button type="button">Enviar</button>
-    <button type="button">Cancelar</button>
+    <button type="submit" required>Enviar</button>
+    <button type="reset" required>Cancelar</button>
     </form>        
 </body>
 
